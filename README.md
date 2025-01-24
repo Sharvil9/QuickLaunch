@@ -1,6 +1,7 @@
 # QuickLaunch
 
 A browser extension for quick access to your favorite apps and websites.
+Ofcourse I used A.I. "heavily" to create this!
 
 ![image](https://github.com/user-attachments/assets/1dcf2d32-13d6-4faf-ba81-7b5f88c22117)
 
