@@ -19,7 +19,7 @@ Ofcourse I used A.I. "heavily" to create this!
 
 1. Clone this repository:
 
-//git clone https://github.com/Sharvil9/QuickLaunch.git
+git clone https://github.com/Sharvil9/QuickLaunch.git
 
 2. Open Chrome/Firefox and navigate to the extensions page:
    - Chrome: `chrome://extensions/`
