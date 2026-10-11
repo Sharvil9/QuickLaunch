@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# Keep the built extension in GitHub archives so the extracted project loads directly.
 dist-ssr
 *.local
 

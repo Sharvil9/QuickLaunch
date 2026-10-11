@@ -16,29 +16,29 @@ import type { LaunchGroup, Link } from './types';
 import { APP_PROTOCOLS } from './types';
 
 const googleApps: Link[] = [
-  { id: 'gcalendar', title: 'Google Calendar', url: 'https://calendar.google.com', category: 'Google', icon: '/icons/apps/gcalendar.png' },
-  { id: 'gmail', title: 'Gmail', url: 'https://mail.google.com', category: 'Google', icon: '/icons/apps/gmail.png' },
-  { id: 'gdrive', title: 'Google Drive', url: 'https://drive.google.com', category: 'Google', icon: '/icons/apps/gdrive.png' },
-  { id: 'gdocs', title: 'Google Docs', url: 'https://docs.google.com', category: 'Google', icon: '/icons/apps/gdocs.png' },
-  { id: 'gsheets', title: 'Google Sheets', url: 'https://sheets.google.com', category: 'Google', icon: '/icons/apps/gsheets.png' },
-  { id: 'gslides', title: 'Google Slides', url: 'https://slides.google.com', category: 'Google', icon: '/icons/apps/gslides.png' },
-  { id: 'gmeet', title: 'Google Meet', url: 'https://meet.google.com', category: 'Google', icon: '/icons/apps/gmeet.png' },
-  { id: 'gkeep', title: 'Google Keep', url: 'https://keep.google.com', category: 'Google', icon: '/icons/apps/gkeep.png' },
-  { id: 'gmaps', title: 'Google Maps', url: 'https://maps.google.com', category: 'Google', icon: '/icons/apps/gmaps.png' },
-  { id: 'gtranslate', title: 'Google Translate', url: 'https://translate.google.com', category: 'Google', icon: '/icons/apps/gtranslate.png' },
-  { id: 'gphotos', title: 'Google Photos', url: 'https://photos.google.com', category: 'Google', icon: '/icons/apps/gphotos.png' },
-  { id: 'gearth', title: 'Google Earth', url: 'https://earth.google.com/web/', category: 'Google', icon: '/icons/apps/gearth.png' },
-  { id: 'gpasswords', title: 'Google Password Manager', url: 'https://passwords.google.com', category: 'Google', icon: '/icons/apps/gpasswords.png' }
+  { id: 'gcalendar', title: 'Google Calendar', url: 'https://calendar.google.com', category: 'Google', icon: './icons/apps/gcalendar.png' },
+  { id: 'gmail', title: 'Gmail', url: 'https://mail.google.com', category: 'Google', icon: './icons/apps/gmail.png' },
+  { id: 'gdrive', title: 'Google Drive', url: 'https://drive.google.com', category: 'Google', icon: './icons/apps/gdrive.png' },
+  { id: 'gdocs', title: 'Google Docs', url: 'https://docs.google.com', category: 'Google', icon: './icons/apps/gdocs.png' },
+  { id: 'gsheets', title: 'Google Sheets', url: 'https://sheets.google.com', category: 'Google', icon: './icons/apps/gsheets.png' },
+  { id: 'gslides', title: 'Google Slides', url: 'https://slides.google.com', category: 'Google', icon: './icons/apps/gslides.png' },
+  { id: 'gmeet', title: 'Google Meet', url: 'https://meet.google.com', category: 'Google', icon: './icons/apps/gmeet.png' },
+  { id: 'gkeep', title: 'Google Keep', url: 'https://keep.google.com', category: 'Google', icon: './icons/apps/gkeep.png' },
+  { id: 'gmaps', title: 'Google Maps', url: 'https://maps.google.com', category: 'Google', icon: './icons/apps/gmaps.png' },
+  { id: 'gtranslate', title: 'Google Translate', url: 'https://translate.google.com', category: 'Google', icon: './icons/apps/gtranslate.png' },
+  { id: 'gphotos', title: 'Google Photos', url: 'https://photos.google.com', category: 'Google', icon: './icons/apps/gphotos.png' },
+  { id: 'gearth', title: 'Google Earth', url: 'https://earth.google.com/web/', category: 'Google', icon: './icons/apps/gearth.png' },
+  { id: 'gpasswords', title: 'Google Password Manager', url: 'https://passwords.google.com', category: 'Google', icon: './icons/apps/gpasswords.png' }
 ];
 
 const microsoftApps: Link[] = [
-  { id: 'outlook', title: 'Outlook', url: 'https://outlook.office.com', category: 'Microsoft', icon: '/icons/apps/outlook.png' },
-  { id: 'onedrive', title: 'OneDrive', url: 'https://onedrive.live.com', category: 'Microsoft', icon: '/icons/apps/onedrive.png' },
-  { id: 'word', title: 'Word', url: 'https://www.office.com/launch/word', category: 'Microsoft', icon: '/icons/apps/word.png' },
-  { id: 'excel', title: 'Excel', url: 'https://www.office.com/launch/excel', category: 'Microsoft', icon: '/icons/apps/excel.png' },
-  { id: 'powerpoint', title: 'PowerPoint', url: 'https://www.office.com/launch/powerpoint', category: 'Microsoft', icon: '/icons/apps/powerpoint.png' },
-  { id: 'teams', title: 'Teams', url: 'https://teams.microsoft.com', category: 'Microsoft', icon: '/icons/apps/teams.png' },
-  { id: 'onenote', title: 'OneNote', url: 'https://www.office.com/launch/onenote', category: 'Microsoft', icon: '/icons/apps/onenote.png' }
+  { id: 'outlook', title: 'Outlook', url: 'https://outlook.office.com', category: 'Microsoft', icon: './icons/apps/outlook.png' },
+  { id: 'onedrive', title: 'OneDrive', url: 'https://onedrive.live.com', category: 'Microsoft', icon: './icons/apps/onedrive.png' },
+  { id: 'word', title: 'Word', url: 'https://www.office.com/launch/word', category: 'Microsoft', icon: './icons/apps/word.png' },
+  { id: 'excel', title: 'Excel', url: 'https://www.office.com/launch/excel', category: 'Microsoft', icon: './icons/apps/excel.png' },
+  { id: 'powerpoint', title: 'PowerPoint', url: 'https://www.office.com/launch/powerpoint', category: 'Microsoft', icon: './icons/apps/powerpoint.png' },
+  { id: 'teams', title: 'Teams', url: 'https://teams.microsoft.com', category: 'Microsoft', icon: './icons/apps/teams.png' },
+  { id: 'onenote', title: 'OneNote', url: 'https://www.office.com/launch/onenote', category: 'Microsoft', icon: './icons/apps/onenote.png' }
 ];
 
 const defaultCategories = ['AI Applications', 'Productivity', 'Development', 'Social Media', 'Entertainment'];
@@ -66,7 +66,7 @@ const defaultLinks: Link[] = [
     title: 'Google Workspace',
     url: '#',
     category: 'Productivity',
-    icon: '/icons/apps/google-workspace.png',
+    icon: './icons/apps/google-workspace.png',
     subLinks: googleApps
   },
   {
@@ -74,7 +74,7 @@ const defaultLinks: Link[] = [
     title: 'Microsoft 365',
     url: '#',
     category: 'Productivity',
-    icon: '/icons/apps/microsoft365.png',
+    icon: './icons/apps/microsoft365.png',
     subLinks: microsoftApps
   },
   {
@@ -82,14 +82,14 @@ const defaultLinks: Link[] = [
     title: 'Wolfram|Alpha',
     url: 'https://www.wolframalpha.com',
     category: 'Productivity',
-    icon: '/icons/apps/wolframalpha.png'
+    icon: './icons/apps/wolframalpha.png'
   },
   {
     id: 'slack',
     title: 'Slack',
     url: 'https://app.slack.com/client/',
     category: 'Productivity',
-    icon: '/icons/apps/slack.png',
+    icon: './icons/apps/slack.png',
     isApp: true,
     appProtocol: APP_PROTOCOLS.SLACK
   },
@@ -98,245 +98,245 @@ const defaultLinks: Link[] = [
     title: 'Zoom Workplace',
     url: 'https://zoom.us',
     category: 'Productivity',
-    icon: '/icons/apps/zoom.png'
+    icon: './icons/apps/zoom.png'
   },
   {
     id: 'obsidian',
     title: 'Obsidian',
     url: 'https://obsidian.md',
     category: 'Productivity',
-    icon: '/icons/apps/obsidian.jpg'
+    icon: './icons/apps/obsidian.jpg'
   },
   {
     id: 'notion',
     title: 'Notion',
     url: 'https://notion.so',
     category: 'Productivity',
-    icon: '/icons/apps/notion.png'
+    icon: './icons/apps/notion.png'
   },
   {
     id: 'jira',
     title: 'Jira',
     url: 'https://www.atlassian.com/software/jira',
     category: 'Productivity',
-    icon: '/icons/apps/jira.png'
+    icon: './icons/apps/jira.png'
   },
   {
     id: 'chatgpt',
     title: 'ChatGPT',
     url: 'https://chatgpt.com',
     category: 'AI Applications',
-    icon: '/icons/apps/chatgpt.png'
+    icon: './icons/apps/chatgpt.png'
   },
   {
     id: 'gemini',
     title: 'Gemini',
     url: 'https://gemini.google.com',
     category: 'AI Applications',
-    icon: '/icons/apps/gemini.png'
+    icon: './icons/apps/gemini.png'
   },
   {
     id: 'claude',
     title: 'Claude',
     url: 'https://claude.ai',
     category: 'AI Applications',
-    icon: '/icons/apps/claude.png'
+    icon: './icons/apps/claude.png'
   },
   {
     id: 'perplexity',
     title: 'Perplexity',
     url: 'https://www.perplexity.ai',
     category: 'AI Applications',
-    icon: '/icons/apps/perplexity.png'
+    icon: './icons/apps/perplexity.png'
   },
   {
     id: 'deepseek',
     title: 'DeepSeek',
     url: 'https://chat.deepseek.com',
     category: 'AI Applications',
-    icon: '/icons/apps/deepseek.png'
+    icon: './icons/apps/deepseek.png'
   },
   {
     id: 'groq',
     title: 'Groq',
     url: 'https://groq.com',
     category: 'AI Applications',
-    icon: '/icons/apps/groq.png'
+    icon: './icons/apps/groq.png'
   },
   {
     id: 'meta-ai',
     title: 'Meta AI',
     url: 'https://www.meta.ai',
     category: 'AI Applications',
-    icon: '/icons/apps/meta-ai.png'
+    icon: './icons/apps/meta-ai.png'
   },
   {
     id: 'firefly',
     title: 'Adobe Firefly',
     url: 'https://firefly.adobe.com',
     category: 'AI Applications',
-    icon: '/icons/apps/firefly.png'
+    icon: './icons/apps/firefly.png'
   },
   {
     id: 'notebooklm',
     title: 'Gemini Notebook',
     url: 'https://notebook.google/',
     category: 'AI Applications',
-    icon: '/icons/apps/notebooklm.png'
+    icon: './icons/apps/notebooklm.png'
   },
   {
     id: 'instagram',
     title: 'Instagram',
     url: 'https://www.instagram.com',
     category: 'Social Media',
-    icon: '/icons/apps/instagram.png'
+    icon: './icons/apps/instagram.png'
   },
   {
     id: 'whatsapp',
     title: 'WhatsApp',
     url: 'https://web.whatsapp.com',
     category: 'Social Media',
-    icon: '/icons/apps/whatsapp.png'
+    icon: './icons/apps/whatsapp.png'
   },
   {
     id: 'twitter',
     title: 'X',
     url: 'https://x.com',
     category: 'Social Media',
-    icon: '/icons/apps/twitter.png'
+    icon: './icons/apps/twitter.png'
   },
   {
     id: 'linkedin',
     title: 'LinkedIn',
     url: 'https://linkedin.com',
     category: 'Social Media',
-    icon: '/icons/apps/linkedin.png'
+    icon: './icons/apps/linkedin.png'
   },
   {
     id: 'facebook',
     title: 'Facebook',
     url: 'https://facebook.com',
     category: 'Social Media',
-    icon: '/icons/apps/facebook.png'
+    icon: './icons/apps/facebook.png'
   },
   {
     id: 'reddit',
     title: 'Reddit',
     url: 'https://reddit.com',
     category: 'Social Media',
-    icon: '/icons/apps/reddit.png'
+    icon: './icons/apps/reddit.png'
   },
   {
     id: 'tiktok',
     title: 'TikTok',
     url: 'https://tiktok.com',
     category: 'Social Media',
-    icon: '/icons/apps/tiktok.png'
+    icon: './icons/apps/tiktok.png'
   },
   {
     id: 'telegram',
     title: 'Telegram',
     url: 'https://web.telegram.org',
     category: 'Social Media',
-    icon: '/icons/apps/telegram.png'
+    icon: './icons/apps/telegram.png'
   },
   {
     id: 'discord',
     title: 'Discord',
     url: 'https://discord.com/app',
     category: 'Social Media',
-    icon: '/icons/apps/discord.png'
+    icon: './icons/apps/discord.png'
   },
   {
     id: 'tumblr',
     title: 'Tumblr',
     url: 'https://tumblr.com',
     category: 'Social Media',
-    icon: '/icons/apps/tumblr.png'
+    icon: './icons/apps/tumblr.png'
   },
   {
     id: 'threads',
     title: 'Threads',
     url: 'https://threads.net',
     category: 'Social Media',
-    icon: '/icons/apps/threads.png'
+    icon: './icons/apps/threads.png'
   },
   {
     id: 'youtube',
     title: 'YouTube',
     url: 'https://youtube.com',
     category: 'Entertainment',
-    icon: '/icons/apps/youtube.png'
+    icon: './icons/apps/youtube.png'
   },
   {
     id: 'spotify',
     title: 'Spotify',
     url: 'https://open.spotify.com',
     category: 'Entertainment',
-    icon: '/icons/apps/spotify.png'
+    icon: './icons/apps/spotify.png'
   },
   {
     id: 'netflix',
     title: 'Netflix',
     url: 'https://netflix.com',
     category: 'Entertainment',
-    icon: '/icons/apps/netflix.png'
+    icon: './icons/apps/netflix.png'
   },
   {
     id: 'prime',
     title: 'Prime Video',
     url: 'https://primevideo.com',
     category: 'Entertainment',
-    icon: '/icons/apps/prime.png'
+    icon: './icons/apps/prime.png'
   },
   {
     id: 'hulu',
     title: 'Hulu',
     url: 'https://hulu.com',
     category: 'Entertainment',
-    icon: '/icons/apps/hulu.png'
+    icon: './icons/apps/hulu.png'
   },
   {
     id: 'disney',
     title: 'Disney+',
     url: 'https://disneyplus.com',
     category: 'Entertainment',
-    icon: '/icons/apps/disney.png'
+    icon: './icons/apps/disney.png'
   },
   {
     id: 'jiohotstar',
     title: 'JioHotstar',
     url: 'https://www.hotstar.com/in',
     category: 'Entertainment',
-    icon: '/icons/apps/jiohotstar.png'
+    icon: './icons/apps/jiohotstar.png'
   },
   {
     id: 'twitch',
     title: 'Twitch',
     url: 'https://twitch.tv',
     category: 'Entertainment',
-    icon: '/icons/apps/twitch.png'
+    icon: './icons/apps/twitch.png'
   },
   {
     id: 'github',
     title: 'GitHub',
     url: 'https://github.com',
     category: 'Development',
-    icon: '/icons/apps/github.png'
+    icon: './icons/apps/github.png'
   },
   {
     id: 'stackoverflow',
     title: 'Stack Overflow',
     url: 'https://stackoverflow.com',
     category: 'Development',
-    icon: '/icons/apps/stackoverflow.png'
+    icon: './icons/apps/stackoverflow.png'
   },
   {
     id: 'figma',
     title: 'Figma',
     url: 'https://figma.com',
     category: 'Development',
-    icon: '/icons/apps/figma.png',
+    icon: './icons/apps/figma.png',
     isApp: true,
     appProtocol: 'figma://'
   },
@@ -345,14 +345,14 @@ const defaultLinks: Link[] = [
     title: 'Postman',
     url: 'https://postman.com',
     category: 'Development',
-    icon: '/icons/apps/postman.png'
+    icon: './icons/apps/postman.png'
   },
   {
     id: 'vscode',
     title: 'Visual Studio Code',
     url: 'https://vscode.dev',
     category: 'Development',
-    icon: '/icons/apps/vscode.png',
+    icon: './icons/apps/vscode.png',
     isApp: true,
     appProtocol: APP_PROTOCOLS.VSCODE
   },
@@ -361,21 +361,21 @@ const defaultLinks: Link[] = [
     title: 'Docker Hub',
     url: 'https://hub.docker.com',
     category: 'Development',
-    icon: '/icons/apps/docker.png'
+    icon: './icons/apps/docker.png'
   },
   {
     id: 'intellij',
     title: 'IntelliJ IDEA',
     url: 'https://jetbrains.com/idea',
     category: 'Development',
-    icon: '/icons/apps/intellij.png'
+    icon: './icons/apps/intellij.png'
   },
   {
     id: 'jupyter',
     title: 'Jupyter',
     url: 'https://jupyter.org',
     category: 'Development',
-    icon: '/icons/apps/jupyter.png'
+    icon: './icons/apps/jupyter.png'
   }
 ];
 
