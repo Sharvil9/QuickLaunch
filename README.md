@@ -1,75 +1,41 @@
 # QuickLaunch
 
-A browser extension for quick access to your favorite apps and websites.
-Ofcourse I used A.I. "heavily" to create this!
+QuickLaunch is a personal browser extension for opening frequently used websites with fewer clicks. It brings AI tools, work apps, personal shortcuts, and time tools into one searchable popup.
 
-![image](https://github.com/user-attachments/assets/1dcf2d32-13d6-4faf-ba81-7b5f88c22117)
+## Features
 
+- Search shortcuts by name, category, or service.
+- Use **⌘K** on macOS or **Ctrl+K** on Windows/Linux to focus search, then press **Enter** to open the first result.
+- Open favorite sites in background tabs and create launch groups for opening several sites together.
+- Add personal links, browse categories, and drag shortcuts to arrange them.
+- Keep shortcuts, recent links, and theme preferences between popup sessions.
+- View four analog world clocks with 12-hour readouts, a monthly calendar, a stopwatch, and a countdown in the same scrollable popup.
+- Keep a running timer visible in Chrome's side panel. Timer progress is saved when the popup closes.
 
-# Features
+## Build
 
-- 🚀 Customizable Quick Links
-- 📁 Categorized Links
-- 🔍 Search Bar for Quick Navigation
-- 🎯 One-Click Access
-- 🌓 Dark/Light Mode Toggle
-- 💾 Import/Export Links
+QuickLaunch requires Node.js and npm. Chrome 116 or later is required for the timer side-panel integration.
 
-## Installation
-
-1. Clone this repository:
-
+```sh
 git clone https://github.com/Sharvil9/QuickLaunch.git
+cd QuickLaunch
+npm ci
+npm run build
+```
 
-2. Open Chrome/Firefox and navigate to the extensions page:
-   - Chrome: `chrome://extensions/`
-   - Firefox: `about:addons`
+The build creates the unpacked extension in `dist/`.
 
-3. Enable Developer Mode
+## Install in Chrome
 
-4. Load the extension:
-   - Chrome: Click "Load unpacked" and select the `src` directory
-   - Firefox: Click "Load Temporary Add-on" and select any file in the `src` directory
+1. Open `chrome://extensions`.
+2. Turn on **Developer mode**.
+3. Choose **Load unpacked** and select the project's `dist` folder.
+4. Pin QuickLaunch to the toolbar for quick access.
 
-## Usage
-
-1. Click the QuickLaunch icon in your browser toolbar
-2. Use the search bar to quickly find apps
-3. Click on any icon to launch the corresponding app
-4. Use the settings panel to customize your links
+Start a stopwatch or countdown from the popup to open it in Chrome's side panel. Closing the popup does not stop the timer. If the side panel is closed, reopen it from the extension to see the saved timer again.
 
 ## Development
 
-### Prerequisites
+Run `npm run dev` for the Vite development preview. Before loading code changes into Chrome, run `npm run build`, then use **Reload** for QuickLaunch on `chrome://extensions`.
 
-- Modern web browser (Chrome/Firefox)
-- Basic knowledge of HTML, CSS, and JavaScript
-
-### Setup
-
-1. Clone the repository
-2. Make your changes in the `src` directory
-3. Test the extension locally
-4. Create a pull request with your changes
-
-### Building
-
-Currently, the extension doesn't require a build step. All source files are directly used by the browser.
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Twitter - [@sharvilkhade](https://x.com/sharvilkhade)
-
-Project Link: [https://github.com/Sharvil9/QuickLaunch](https://github.com/Sharvil9/QuickLaunch)
+AI tools were used extensively during development of this project. QuickLaunch is distributed under the MIT License; see [LICENSE](LICENSE).
